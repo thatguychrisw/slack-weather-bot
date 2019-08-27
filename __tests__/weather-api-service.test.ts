@@ -1,4 +1,4 @@
-import WeatherApiService from '../src/weather-api-service';
+import WeatherApiService from '../src/services/weather-api-service';
 
 const service:WeatherApiService = new WeatherApiService({});
 

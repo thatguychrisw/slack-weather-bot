@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import serverless from 'serverless-http';
-import WeatherApiService from "./weather-api-service";
+import WeatherApiService from "./services/weather-api-service";
 
 const app = express();
 app.use(bodyParser.json());
