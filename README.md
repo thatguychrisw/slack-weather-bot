@@ -1,4 +1,7 @@
-# Netlify Serverless Express API
+# Slack Weather Bot
+A bot built using the starter pack below.
+
+## Netlify Serverless Express API
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thatguychrisw/netlify-serverless-express-api)
 
 This boilerplate can be used to quickly spin up a serverless, express API leveraging Netlify Functions.   
