@@ -5,7 +5,7 @@ export default class WeatherApiService {
 
     }
 
-    static temperature(zipCode: number)
+    public temperature(zipCode: number)
     {
         return 20;
     }

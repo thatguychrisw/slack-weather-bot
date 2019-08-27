@@ -1,9 +1,9 @@
-import WeatherService from '../src/weather-api-service';
+import WeatherApiService from '../src/weather-api-service';
+
+const service:WeatherApiService = new WeatherApiService({});
 
 test('requesting a temperature should return a number', () => {
-    let service:WeatherService = new WeatherService({});
-
-    let temperature = WeatherService.temperature(33458);
+    let temperature = service.temperature(33458);
 
     assertIsNumber(temperature);
 });
